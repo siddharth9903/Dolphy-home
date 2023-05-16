@@ -1,4 +1,7 @@
+import Image from "next/image";
 import React from "react";
+import testimonial from '../../public/testimonial.png'
+import testimonial2 from '../../public/testimonial2.png'
 
 const Testimonial = () => {
   return (
@@ -12,11 +15,18 @@ const Testimonial = () => {
             Wall of love{" "}
           </button>
         </div>
-        <div className="flex flex-1 text-black text-xl">
-          Select "Record a Video"
+        <div>
+          <div className='justify-center items-center'>
+            <Image src={testimonial} className="scale-70"/>
+            <p className='text-center'>Select "Record a Video"</p>
+          </div>
         </div>
-        <div className="flex flex-1 text-black text-xl">
-          Record a nice video talking about TweeFeed
+        
+        <div>
+          <div className='justify-center items-center'>
+            <Image src={testimonial2} className='scale-50' />
+            <p className='text-center'>Record a nice video talking about TweeFeed</p>
+          </div>
         </div>
       </div>
       <div className="text-black text-xl">

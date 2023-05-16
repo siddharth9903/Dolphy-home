@@ -1,6 +1,9 @@
 import Card from "@/components/Card";
 import React from "react";
 import Chrome from "../../public/icons/chrome.svg";
+import Image from "next/image";
+import img4 from "../../public/pic_4.png";
+
 
 const cards = [
   {
@@ -38,9 +41,15 @@ const cards = [
 const Users = () => {
   return (
     <div className="px-40 flex flex-col gap-20 items-center">
+      <div className="flex justify-center items-center">
+          <Image src={img4} />
+        </div>
       <h2 className="text-center">Hear form our Users!</h2>
       <div className="flex flex-row items-center">
-        <div className="flex flex-1">trump</div>
+        <div className="flex flex-1">
+          {/* trump */}
+          {/* <Image src={images} */}
+          </div>
         <div className="flex flex-1 flex-col gap-3 text-xl text-black">
           <div className="mb-10">
             Lorem ipsum dolor sit amet. 33 fugiat quisquam ut tempora cumque in

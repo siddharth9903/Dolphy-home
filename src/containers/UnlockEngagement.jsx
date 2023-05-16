@@ -2,13 +2,16 @@ import Image from "next/image";
 import React from "react";
 import Download from "../../public/icons/download.svg";
 import Chrome from "../../public/icons/chrome.svg";
-import Avatars from "../../public/icons/avatars.svg";
+import img1 from "../../public/pic_1.png";
+import img2 from "../../public/pic_2.png";
+import img3 from "../../public/pic_3.png";
+import tweetfeed from "../../public/tweetfeed.png";
 
 const UnlockEngagement = () => {
   return (
     <div className="px-36 flex flex-col gap-24">
       <div className="flex justify-between mt-10">
-        <Image src="/../../public/tweeFedd.png" width={32} height={32} />
+        <Image src={tweetfeed} width={150} height={150} />
         <button className="flex flex-row items-center bg-purple-900 text-white p-2 pl-4 rounded-xl">
           install <Download fill="white" />
         </button>
@@ -31,12 +34,19 @@ const UnlockEngagement = () => {
       <div className="text-center text-2xl">
         Join 1000+ entrepreneurs, startups & marketers
         <div>Avatars</div>
+        <div className="flex justify-center items-center">
+          <Image src={img1} />
+        </div>
+        <div className="flex justify-center items-center">
+          <Image src={img2} />
+        </div>
       </div>
-      {/* <img
-        src="../../public/photocollage.png"
-        alt="image"
-        className="aspect-video z-10"
-      /> */}
+      <div className="text-center text-2xl">
+        <h3><b>Trusted</b> by </h3>
+        <div className="flex justify-center items-center">
+          <Image src={img3} />
+        </div>
+      </div>
     </div>
   );
 };

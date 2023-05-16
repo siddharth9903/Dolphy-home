@@ -1,6 +1,5 @@
 import React from "react";
 import Chrome from "../../public/icons/chrome.svg";
-
 const Difficulties = () => {
   return (
     <div className="py-40 flex flex-col gap-20">
