@@ -1,8 +1,10 @@
 import Difficulties from "@/containers/Difficulties";
 import Feasibility from "@/containers/Feasibility";
+import Req from "@/containers/Requirements";
 import Shoutout from "@/containers/Shoutout";
 import Subscription from "@/containers/Subscription";
 import SuccessStory from "@/containers/SuccessStory";
+import Support from "@/containers/Support";
 import Testimonial from "@/containers/Testimonial";
 import UnlockEngagement from "@/containers/UnlockEngagement";
 import Users from "@/containers/Users";
@@ -21,6 +23,8 @@ export default function Home() {
       <Shoutout />
       <Testimonial />
       <SuccessStory />
+      <Req/>
+      <Support/>
     </>
   );
 }
