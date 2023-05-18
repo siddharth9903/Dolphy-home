@@ -30,7 +30,7 @@ const Difficulties = () => {
         </div>
       </div>
       <div className="bg-[#04045c] flex flex-col p-20 gap-10 items-center">
-        <h2 className="text-white text-center">Not anymore</h2>
+        <h2 className="text-white text-center">Not anymore!</h2>
         <div className="text-white text-xl text-center">
           Say goodbye to time-consuming replies and hello to AI-powered
           productivity. <br /> Let our AI assistant handle your Twitter replies,

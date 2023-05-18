@@ -31,23 +31,23 @@ const Support = () => {
             <h3>Support</h3>
             <p>How can we help?</p>
 
-            <div className="flex justify-evenly w-full">
-            <div className="bg-slate-300 px-12 py-5 rounded-3xl flex flex-col items-center gap-2">
+            <div className="md:flex justify-evenly w-full">
+            <div className="shadow-slate-700 shadow-2xl px-12 py-5 rounded-3xl flex flex-col items-center gap-2">
             <Image src={Email}/>
             <p>Email us at</p>
-            <a href="#">Support@dolphy.io</a>
+            <a href="#" className="text-[#04045c] text-xl font-bold">Support@dolphy.io</a>
             </div>
 
-            <div className="bg-slate-300 px-12 py-5 rounded-3xl flex flex-col items-center gap-2">
+            <div className="shadow-slate-700 shadow-2xl px-12 py-5 rounded-3xl flex flex-col items-center gap-2">
             <Image src={Slack}/>
             <p>Ask the community!</p>
-            <a href="#">Join Slack</a>
+            <a href="#" className="text-[#04045c] text-xl font-bold">Join Slack</a>
             </div>
 
-            <div className="bg-slate-300 px-12 py-5 rounded-3xl flex flex-col items-center gap-2">
+            <div className="shadow-slate-700 shadow-2xl px-12 py-5 rounded-3xl flex flex-col items-center gap-2">
             <Image src={Whatsapp}/>
             <p>Join the group!</p>
-            <a href="#">Whatsapp</a>
+            <a href="#" className="text-[#04045c] text-xl font-bold">Whatsapp</a>
             </div>
             </div>
 

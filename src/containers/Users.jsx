@@ -14,27 +14,27 @@ const cards = [
   {
     id: 2,
     content:
-      "Tailored responses for different emotions, adding authenticity to your tweets.",
+      "Endless stream of creative and relevant responses for diverse interactions.",
   },
   {
     id: 3,
     content:
-      "Tailored responses for different emotions, adding authenticity to your tweets.",
+      "Convenient and easy-to-use tool for crafting perfect replies with just one click.",
   },
   {
     id: 4,
     content:
-      "Tailored responses for different emotions, adding authenticity to your tweets.",
+      "Boost your social media presence with TweeFeed's AI-powered capabilities.",
   },
   {
     id: 5,
     content:
-      "Tailored responses for different emotions, adding authenticity to your tweets.",
+      "Say goodbye to generic replies and enhance your Twitter game with personalized responses.",
   },
   {
     id: 6,
     content:
-      "Tailored responses for different emotions, adding authenticity to your tweets.",
+      "Effortlessly engage with the diverse Twitter community using personalized replies.",
   },
 ];
 
@@ -61,7 +61,7 @@ const Users = () => {
           <div>Donald Trump</div>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-16">
+      <div className="grid md:grid-cols-3 gap-16">
         {cards.map((x) => {
           return <Card {...x} />;
         })}
