@@ -27,11 +27,11 @@ import Whatsapp from '../../public/whatsapp-icon.png'
 
 const Support = () => {
     return(
-        <div className="px-40 py-20 flex flex-col items-center gap-10">
+        <div className="px-5 lg:px-40 py-10 md:py-20 flex flex-col items-center gap-10">
             <h3>Support</h3>
             <p>How can we help?</p>
 
-            <div className="md:flex justify-evenly w-full">
+            <div className="flex flex-col gap-10">
             <div className="shadow-slate-700 shadow-2xl px-12 py-5 rounded-3xl flex flex-col items-center gap-2">
             <Image src={Email}/>
             <p>Email us at</p>

@@ -2,9 +2,9 @@ import React from "react";
 
 const SuccessStory = () => {
   return (
-    <div className="px-40 py-20 flex flex-col items-center gap-10">
+    <div className="px-5 lg:px-40 py-10 md:py-20 flex flex-col items-center gap-10">
       <h3>Share your Success Story</h3>
-      <div className="flex flex-row gap-20">
+      <div className="flex flex-col md:flex-row gap-5 lg:gap-20">
         <div className="flex flex-1 flex-col text-black text-xl gap-7">
           Email us your success story at: <br /> <span className="text-[#04045c] font-semibold">Support@dolphy.io</span>
         </div>
@@ -16,7 +16,7 @@ const SuccessStory = () => {
         </div>
       </div>
       <div className="text-black text-xl">
-        Get <span className="text-7xl font-bold text-[#04045c]"> 500 </span>Free Replies
+        Get <span className="text-5xl md:text-7xl font-bold text-[#04045c]"> 500 </span>Free Replies
       </div>
     </div>
   );

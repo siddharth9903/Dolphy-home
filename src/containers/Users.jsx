@@ -4,7 +4,6 @@ import Chrome from "../../public/icons/chrome.svg";
 import Image from "next/image";
 import img4 from "../../public/pic_4.png";
 
-
 const cards = [
   {
     id: 1,
@@ -40,16 +39,16 @@ const cards = [
 
 const Users = () => {
   return (
-    <div className="px-40 flex flex-col gap-20 items-center">
+    <div className="px-5 md:px-40 flex flex-col gap-10 md:gap-20 items-center">
       <div className="flex justify-center items-center">
-          <Image src={img4} />
-        </div>
+        <Image src={img4} />
+      </div>
       <h2 className="text-center">Hear form our Users!</h2>
-      <div className="flex flex-row items-center">
+      <div className="flex flex-col md:flex-row items-center">
         <div className="flex flex-1">
           {/* trump */}
           {/* <Image src={images} */}
-          </div>
+        </div>
         <div className="flex flex-1 flex-col gap-3 text-xl text-black">
           <div className="mb-10">
             Lorem ipsum dolor sit amet. 33 fugiat quisquam ut tempora cumque in
@@ -61,7 +60,7 @@ const Users = () => {
           <div>Donald Trump</div>
         </div>
       </div>
-      <div className="grid md:grid-cols-3 gap-16">
+      <div className="grid md:grid-cols-3 gap-5 lg:gap-16">
         {cards.map((x) => {
           return <Card {...x} />;
         })}

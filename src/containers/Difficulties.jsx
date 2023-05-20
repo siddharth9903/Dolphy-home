@@ -2,7 +2,7 @@ import React from "react";
 import Chrome from "../../public/icons/chrome.svg";
 const Difficulties = () => {
   return (
-    <div className="py-40 flex flex-col gap-20">
+    <div className="py-20 md:py-40 px-5 flex flex-col gap-10 md:gap-20">
       <div className="flex flex-col gap-7">
         <h2 className="text-center">It Gets Difficult!</h2>
         <div className="text-center text-xl">
@@ -29,7 +29,7 @@ const Difficulties = () => {
           resulting in less effective and engaging conversations.
         </div>
       </div>
-      <div className="bg-[#04045c] flex flex-col p-20 gap-10 items-center">
+      <div className="bg-[#04045c] flex flex-col p-12 md:p-20 gap-10 items-center">
         <h2 className="text-white text-center">Not anymore!</h2>
         <div className="text-white text-xl text-center">
           Say goodbye to time-consuming replies and hello to AI-powered

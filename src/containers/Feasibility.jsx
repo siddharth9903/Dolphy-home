@@ -24,7 +24,7 @@ const data = [
 
 const Feasibility = () => {
   return (
-    <div className="md:flex flex-row p-36">
+    <div className="flex flex-col md:flex-row gap-5 lg:gap-10 p-5">
       {data.map((x) => {
         return <Feasible number={x.number} title={x.title} desc={x.desc} />;
       })}

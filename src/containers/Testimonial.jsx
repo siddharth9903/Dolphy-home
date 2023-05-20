@@ -5,10 +5,10 @@ import testimonial2 from '../../public/testimonial2.png'
 
 const Testimonial = () => {
   return (
-    <div className="px-40 py-20 flex flex-col items-center gap-10">
+    <div className="px-5 md:px-9 py-10 md:py-20 flex flex-col items-center gap-10">
       <h3>Post a Video Testimonial</h3>
-      <div className="flex flex-row gap-20">
-        <div className="flex flex-1 flex-col text-black text-xl gap-7">
+      <div className="flex flex-col md:flex-row gap-5 lg:gap-20">
+        <div className="flex flex-col text-black text-xl gap-7 px-10">
           Click below!{" "}
           <button className="text-white bg-[#04045c] p-2 rounded-full">
             {" "}
@@ -30,7 +30,7 @@ const Testimonial = () => {
         </div>
       </div>
       <div className="text-black text-xl">
-        Get <span className="text-7xl font-bold text-[#04045c]"> 200 </span>Free Replies
+        Get <span className="text-5xl md:text-7xl font-bold text-[#04045c]"> 200 </span>Free Replies
       </div>
     </div>
   );

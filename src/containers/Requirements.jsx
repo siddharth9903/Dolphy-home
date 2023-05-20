@@ -2,7 +2,7 @@ import React from "react";
 
 const Req = () => {
     return (
-        <div className="px-40 py-20 flex flex-col items-center gap-10">
+        <div className="px-5 lg:px-40 py-10 md:py-20 flex flex-col items-center gap-10">
             <h3>Not meeting your requirements?</h3>
             <div className="flex justify-center gap-5">
             <button className="text-white bg-[#04045c] p-2 px-5 rounded-full">Monthly</button>
